@@ -19,6 +19,8 @@ Please also see rsc's [regexp1] article.
 
 ## usage
 
-`./run`
+`./run N1 N2`
+
+runs checks in range N1...N2. Interesting things start above N=25.
 
 [regexp1]: https://swtch.com/~rsc/regexp/regexp1.html
