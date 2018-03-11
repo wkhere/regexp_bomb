@@ -12,6 +12,12 @@ This experiment shows execution times for matching regular expression
 (*n* denotes repetition, that is,
 *a?<sup>2</sup>a<sup>2</sup>* is *a?a?aa*.
 
+When looking at the timings please note that in Go's example
+also compilaton time is measured. To be fair to interpreted languaues -
+in their case parsing & interpretation overhead also count.
+So the important thing is to compare time complexity for a given language,
+not exactly the absolute values.
+
 The outcome is that Go's library is free from this exponential
 time characteristincs.
 
