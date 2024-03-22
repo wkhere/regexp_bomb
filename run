@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TIMEFORMAT=$'\e[34m''t=%Rs'$'\e[0m'
+TIMEFORMAT=$'\e[34;1m''t=%Rs'$'\e[0m'
 
 for n in $(seq $*); do
 	for l in py rb go; do
