@@ -6,4 +6,5 @@ for n in $(seq $*); do
 	for l in py rb go; do
 		echo -n "$l "; time ./check.$l $n
 	done
+	echo -n "java "; time ./check-java $n
 done
